@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MON PORTFOLIO</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+                <nav>
+                    <ul>
+                        <li><a href="#D">Acceuil</a></li>
+                        <li><a href="#par">Parcours</a></li>
+                        <li><a href="#comp">competences</a></li>
+                        <li><a href="#loi">Loisirs</a></li>
+                        <li><a href="#port">Portfolio</a></li>
+                        
+                    </ul>
+                
+            </nav>
+        </header>
+            <h1> <center>welcome in my life</center> </h1>
+            <img src="pp.jpg" class="pp">
+            <div id="D">
+                <h2>NOM: MELENGUE</h2>
+                <h2>PRENOM: ANNE CHANCELLE</h2>
+                <h2>Matricule: 21A097FS</h2>
+                <h2>ADRESSE E-MAIL: melenguechancelle@gmail.com</h2>
+                <h2>ADRESSE DE RESIDENCE: BEKA</h2>
+                <H2>TEL:694-617-168</H2>
+                <br><br><br><br>
+            </div>
+      
+            <div id="par">
+                <h1><center>PARCOURS</center></h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>DIPLOMES</th>
+                            <th>ANNEES</th>
+                            <th>ETABLISSEMENT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>LICENCE2 INFORMATIQUE</td>
+                            <td>2022-2023</td>
+                            <td>UNIVERSITE DE NGAOUNDERE</td>
+                        </tr>
+                        <tr>
+                            <td>LICENCE1 INFORMATIQUE</td>
+                            <td>2021-2022</td>
+                            <td>UNIVERSITE DE NGAOUNDERE</td>
+                        </tr>
+                        <tr>
+                            <td>BACCALAUREAT TI</td>
+                            <td>2020-2021</td>
+                            <td>LYCEE BILINGUE DE KRIBI</td>
+                        </tr>
+                        <tr>
+                            <td>PROBATOIRE TI</td>
+                            <td>2018-2019</td>
+                            <td>LYCEE CLASSIQUE ET MODERNE DE SANGMELIMA</td>
+                        </tr>
+                        
+                        
+                        
+                    </tbody>
+                </table>
+                <br><br>
+            </div> 
+            <div id="comp">   <h1> <center>COMPETENCES</center> </h1>
+                <p><h2>J'ai des competences en</h2> </p>
+                <ul>
+                    <li>RESEAU ET SECURITE INFORMATIQUE</li>
+                    <li>EN HTML ET CSS</li>
+                    <li>PHP</li>
+                    <li>C++</li>
+                    <li>MAINTENANCE INFORMATIQUE</li>
+                    <li>LANGUES PARLEES: ANGLAIS ET FRANCAIS</li>
+                    <br><br>
+                </ul></div>  
+                <div id="loi">
+                    <h1> <center>LOISIRS</center> </h1>
+                    <h2> Je pratique beaucoup les sports tels que:</h2>
+                    <ul>
+                        <li>DANSE CLASSIQUE</li>
+                        <li>GYMNASTIQUE AU SOL</li>
+                    </ul>
+                    <br><br><br><br>  
+                </div>
+                <div id="port">
+                    <h1> <center>PORTFOLIO</center> </h1>
+                    <h4>maintenance materielle</h4>
+                    <img src="mainte.jpg" id="image2">
+                    
+                   <h4> Configuration du protocole tcp ipvsix</h4>
+                   <img src="reseau.jpg" id="image2">
+                   <img src="reseau2.jpg" id="image2">
+                
+                  
+                </div>
+
+                      
+
+
+      </body>
+      <style>
+          table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 8px;
+    
+    text-align: left; 
+}
+header {
+    background-color: #fdeece94;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align:center   ;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+img{
+    height: 280px;
+    width: 380px;
+    border-radius: 35px;
+    overflow: hidden;
+    padding-left: 25px;
+    transition:ease-in-out ;
+    position: relative;
+}
+
+#D{
+    float: right;
+   
+    
+}
+#pp{
+    float: left;
+    animation: fadeInOutImage 2s infinite;
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+}
+
+@keyframes fadeInOutImage{
+   /* 0%{
+        opacity: 0;
+    }
+   
+    100%{
+         opacity: 1;
+    }*/
+    from{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+    
+#par{
+    clear: both;
+    background-color: rgba(47, 223, 208, 0.349);
+}
+#comp{
+    padding: 50px;
+    background-color: bisque;
+}
+#loi{
+    padding: 50px;
+    background-color: rgba(47, 223, 208, 0.349);
+}
+body{
+    background-color: rgb(252, 252, 252);
+}
+nav{
+   
+    height: 80px;
+}
+.btn{
+    border-radius: 15px;
+    height: 50px;
+    width: 70px;
+    border-color: rgb(23, 137, 230);
+    background-color: black;
+    color: cornsilk;
+    margin: 8px;
+}
+.btn:hover{
+    color: crimson;
+    background-color: rgb(241, 243, 243);
+}
+a:hover{
+    color:rgb(196, 182, 188);
+    border-top: 5px solid #f096eb;
+        background-color: rgb(139, 53, 158);
+}
+      </style>  
+</html>
